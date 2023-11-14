@@ -2988,7 +2988,7 @@ a {
   .back p {
     position: absolute;
     left: 0%;
-    top: -20%;
+    top: 30%;
     font-size: 4vw;
     color: pink;
     font-family: "Pretendard-Regular";
@@ -3303,7 +3303,6 @@ a {
 
   .small {
     width: 100%;
-    height: 100%;
     margin: 0px auto;
     padding-top: 30vw;
     position: absolute;
@@ -3447,7 +3446,7 @@ a {
     padding: 2vw;
     text-align: center;
     color: #222;
-    margin: 35vw auto;
+    margin: 25vw auto;
     font-family: "Pretendard-Regular";
     font-size: 4vw;
   }
