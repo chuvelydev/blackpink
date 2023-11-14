@@ -2866,8 +2866,7 @@ a {
 
   .con1_about {
     width: 80%;
-    margin: 40vw auto 0vw;
-    gap: 4vw;
+    margin: 30vw auto 0vw;
   }
   .con1_about li {
     z-index: 11;
@@ -3218,6 +3217,9 @@ a {
     width: 12%;
     animation: star 1s linear infinite;
   }
+  .star {
+    display: none;
+  }
 
   .con2_img1 img {
     width: 100%;
@@ -3314,9 +3316,10 @@ a {
     animation: down 1s 1s ease-out forwards;
   }
   .small li {
-    width: 100%;
+    width: calc(100% / 2);
     height: 100px;
     margin-bottom: 3vw;
+    margin: 0px auto 3vw;
     border-radius: 2vw;
   }
   .small img {
