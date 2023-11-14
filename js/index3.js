@@ -233,6 +233,7 @@ $(document).ready(function () {
       $("#con4 h4:nth-of-type(2)").addClass("on");
       $("#con4 h3:nth-of-type(1)").addClass("on");
       $("#con4 h3:nth-of-type(2)").addClass("on");
+      $(".small").removeClass("on");
     }
     $(".navi li").on("click", function () {
       target = $(this).children("a").attr("href");
