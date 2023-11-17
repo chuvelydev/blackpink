@@ -14,10 +14,10 @@ body {
   width: 15px; /* 세로축 스크롤 바 길이 */
   height: 20px; /* 가로축 스크롤 바 길이 */
 }
-::-webkit-scrollbar-button:start {
+::-webkit-scrollbar-button {
   background-color: pink; /* Top, Left 방향의 이동버튼 */
 }
-::-webkit-scrollbar-button:end {
+::-webkit-scrollbar-button{
   background-color: pink; /* Bottom, Right 방향의 이동버튼 */
 }
 ::-webkit-scrollbar-track-piece {
